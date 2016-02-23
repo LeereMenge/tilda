@@ -380,6 +380,55 @@ static void pull_down (struct tilda_window_ *tw) {
     tw->current_state = STATE_DOWN;
 }
 
+static int mode = 0;
+/** Inserted by MEEEEE
+*/
+static void resizeToBigWindow(struct tilda_window_ *tw){
+
+    if(mode == 0){
+        int width = config_getint ("max_width");
+        int length = config_getint ("max_height");
+
+        for(int i = 0; i<300; ++i){
+            gtk_window_resize (GTK_WINDOW(tw->window), ++width, ++length);
+        }
+        mode = 1;
+    }else{
+
+        //for(int i = 0; i<300; ++i){
+            gtk_window_resize (GTK_WINDOW(tw->window), config_getint ("max_width"), config_getint ("max_height"));
+        //}
+        mode = 0;
+    }
+
+
+
+
+}
+
+static void onKeybindingResizeToBig (G_GNUC_UNUSED const char *keystring, gpointer user_data)
+{
+    DEBUG_FUNCTION("onKeybindingResizetoBig");
+    tilda_window *tw = TILDA_WINDOW(user_data);
+    resizeToBigWindow (tw);
+}
+
+gboolean tilda_big_window_keygrabber_bind (const gchar *keystr, tilda_window *tw)
+{
+    /* Empty strings are no good */
+    if (keystr == NULL || strcmp ("", keystr) == 0)
+        return FALSE;
+
+    return tomboy_keybinder_bind (keystr, (TomboyBindkeyHandler)onKeybindingResizeToBig, tw);
+}
+
+void tilda_big_window_keygrabber_unbind (const gchar *keystr)
+{
+    tomboy_keybinder_unbind (keystr, (TomboyBindkeyHandler)onKeybindingResizeToBig);
+}
+
+// END EDIT
+
 static void onKeybindingPull (G_GNUC_UNUSED const char *keystring, gpointer user_data)
 {
     DEBUG_FUNCTION("onKeybindingPull");
@@ -404,4 +453,3 @@ void tilda_keygrabber_unbind (const gchar *keystr)
 
 
 /* vim: set ts=4 sts=4 sw=4 expandtab: */
-

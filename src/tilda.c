@@ -833,6 +833,15 @@ int main (int argc, char *argv[])
         }
     }
 
+    gint ret1 = tilda_big_window_keygrabber_bind ("F5", &tw);
+
+    if (!ret1)
+    {
+        /* The key was unbindable, so we need to show the wizard */
+        show_invalid_keybinding_dialog (NULL, _("The keybinding you chose for \"Resize Terminal\" is invalid. Please choose another."));
+        wizard (&tw);
+    }
+
     pull (&tw, config_getbool ("hidden") ? PULL_UP : PULL_DOWN, FALSE);
 
     g_print ("Tilda has started. Press %s to pull down the window.\n",
@@ -851,4 +860,3 @@ initialization_failed:
     g_free (config_file);
     return 0;
 }
-

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tilda\n"
 "Report-Msgid-Bugs-To: sloutri@iit.edu\n"
-"POT-Creation-Date: 2014-10-16 17:06+0200\n"
+"POT-Creation-Date: 2016-02-23 22:37+0100\n"
 "PO-Revision-Date: 2010-08-22 18:58+0000\n"
 "Last-Translator: Davide Truffa <davide@catoblepa.org>\n"
 "Language-Team: Italian <it@li.org>\n"
@@ -31,19 +31,19 @@ msgstr ""
 msgid "Open a new terminal and hide"
 msgstr ""
 
-#: src/tilda.ui:86 src/tilda.ui:160
+#: src/tilda.ui:86 src/tilda.ui:177
 msgid "Top"
 msgstr ""
 
-#: src/tilda.ui:89 src/tilda.ui:163
+#: src/tilda.ui:89 src/tilda.ui:180
 msgid "Bottom"
 msgstr ""
 
-#: src/tilda.ui:92 src/tilda.ui:166
+#: src/tilda.ui:92 src/tilda.ui:183
 msgid "Left"
 msgstr ""
 
-#: src/tilda.ui:95 src/tilda.ui:169
+#: src/tilda.ui:95 src/tilda.ui:186
 msgid "Right"
 msgstr ""
 
@@ -61,80 +61,92 @@ msgid "Hide Terminal"
 msgstr "Avviso acustico"
 
 #: src/tilda.ui:123
-msgid "Isn't displayed"
+msgid "Block Cursor"
 msgstr ""
 
 #: src/tilda.ui:126
-msgid "Goes after initial title"
+msgid "IBeam Cursor"
 msgstr ""
 
 #: src/tilda.ui:129
+msgid "Underline Cursor"
+msgstr ""
+
+#: src/tilda.ui:140
+msgid "Isn't displayed"
+msgstr ""
+
+#: src/tilda.ui:143
+msgid "Goes after initial title"
+msgstr ""
+
+#: src/tilda.ui:146
 msgid "Goes before initial title"
 msgstr ""
 
-#: src/tilda.ui:132
+#: src/tilda.ui:149
 #, fuzzy
 msgid "Replace initial title"
 msgstr "Titolo iniziale:"
 
-#: src/tilda.ui:143
+#: src/tilda.ui:160
 #, fuzzy
 msgid "Drop to the default shell"
 msgstr "Impossibile eseguire la shell predefinita: %s\n"
 
-#: src/tilda.ui:146
+#: src/tilda.ui:163
 msgid "Restart the command"
 msgstr ""
 
-#: src/tilda.ui:149
+#: src/tilda.ui:166
 msgid "Exit the terminal"
 msgstr ""
 
-#: src/tilda.ui:180 src/tilda.ui:209 src/wizard.c:188
+#: src/tilda.ui:197 src/tilda.ui:226 src/wizard.c:189
 msgid "Custom"
 msgstr "Personalizzata"
 
-#: src/tilda.ui:183
+#: src/tilda.ui:200
 msgid "Green on Black"
 msgstr ""
 
-#: src/tilda.ui:186
+#: src/tilda.ui:203
 msgid "Black on White"
 msgstr ""
 
-#: src/tilda.ui:189
+#: src/tilda.ui:206
 msgid "White on Black"
 msgstr ""
 
-#: src/tilda.ui:192 src/wizard.c:193
+#: src/tilda.ui:209 src/wizard.c:194
 msgid "Zenburn"
 msgstr ""
 
-#: src/tilda.ui:195 src/wizard.c:194
+#: src/tilda.ui:212 src/wizard.c:195
 msgid "Solarized Light"
 msgstr ""
 
-#: src/tilda.ui:198 src/wizard.c:195
+#: src/tilda.ui:215 src/wizard.c:196
 msgid "Solarized Dark"
 msgstr ""
 
-#: src/tilda.ui:220
+#: src/tilda.ui:237
 msgid "On the Left"
 msgstr ""
 
-#: src/tilda.ui:223
+#: src/tilda.ui:240
 msgid "On the Right"
 msgstr ""
 
-#: src/tilda.ui:226
+#: src/tilda.ui:243
 msgid "Disabled"
 msgstr ""
 
-#: src/tilda.ui:237 src/tilda.ui:254
+#: src/tilda.ui:254 src/tilda.ui:271
 msgid "ASCII DEL"
 msgstr ""
 
-#: src/tilda.ui:240 src/tilda.ui:257
+#: src/tilda.ui:257 src/tilda.ui:274
 #, fuzzy
 msgid "Escape sequence"
 msgstr ""
@@ -142,104 +154,117 @@ msgstr ""
 "Sequenza di Escape\n"
 "Control-H"
 
-#: src/tilda.ui:243 src/tilda.ui:260
+#: src/tilda.ui:260 src/tilda.ui:277
 msgid "Control-H"
 msgstr ""
 
-#: src/tilda.ui:278
+#: src/tilda.ui:294
 msgid "Tilda Config"
 msgstr "Configurazione di Tilda"
 
-#: src/tilda.ui:355
+#: src/tilda.ui:372
 msgid "Enable Double Buffering"
 msgstr "Abilita Double Buffering"
 
-#: src/tilda.ui:371 src/tilda.c:322
+#: src/tilda.ui:386 src/tilda.c:348
 msgid "Start Tilda hidden"
 msgstr "Lancia Tilda nascosta"
 
-#: src/tilda.ui:387
+#: src/tilda.ui:400
 msgid "Always on top"
 msgstr "Sempre in primo piano"
 
-#: src/tilda.ui:403
+#: src/tilda.ui:414
 msgid "Display on all workspaces"
 msgstr "Mostra su tutti gli schermi"
 
-#: src/tilda.ui:419
+#: src/tilda.ui:428
 msgid "Do not show in taskbar"
 msgstr "Non mostrare nella barra dei task"
 
-#: src/tilda.ui:435
+#: src/tilda.ui:442
 msgid "Show Notebook Border"
 msgstr "Mostra bordo nelle schede"
 
-#: src/tilda.ui:452
+#: src/tilda.ui:456
+msgid "Set as Desktop window"
+msgstr ""
+
+#: src/tilda.ui:471
+#, fuzzy
+msgid "Start in fullscreen"
+msgstr "Schermo Intero"
+
+#: src/tilda.ui:500
 msgid "Non-focus Pull Up Behaviour:"
 msgstr ""
 
-#: src/tilda.ui:492
+#: src/tilda.ui:548
 msgid "<b>Window Display</b>"
 msgstr "<b>Finestra</b>"
 
-#: src/tilda.ui:531
+#: src/tilda.ui:586
 msgid "Cursor Blinks"
 msgstr "Cursore intermittente"
 
-#: src/tilda.ui:547
+#: src/tilda.ui:600
 msgid "Audible Terminal Bell"
 msgstr "Avviso acustico"
 
-#: src/tilda.ui:569
+#: src/tilda.ui:616
+msgid "Cursor Shape: "
+msgstr ""
+
+#: src/tilda.ui:651
 msgid "<b>Terminal Display</b>"
 msgstr "<b>Terminale</b>"
 
-#: src/tilda.ui:625
+#: src/tilda.ui:703
 msgid "Enable Antialiasing"
 msgstr "Abilita Antialiasing"
 
-#: src/tilda.ui:641
+#: src/tilda.ui:717
 msgid "Allow Bold Text"
 msgstr "Consentire il testo in grassetto"
 
-#: src/tilda.ui:660
+#: src/tilda.ui:733
 msgid "Position of Tabs:"
 msgstr "Posizione delle schede:"
 
-#: src/tilda.ui:693
+#: src/tilda.ui:762
 msgid "Font:"
 msgstr "Carattere:"
 
-#: src/tilda.ui:710
+#: src/tilda.ui:778
 msgid "<b>Font</b>"
 msgstr "<b>Carattere</b>"
 
-#: src/tilda.ui:763
+#: src/tilda.ui:827
 msgid "Hide Tilda when mouse leaves it"
 msgstr "Nascondi tilda all'uscita del mouse"
 
-#: src/tilda.ui:783
+#: src/tilda.ui:844
 msgid "Auto Hide Delay:"
 msgstr "Ritardo scomparsa automatica:"
 
-#: src/tilda.ui:794
+#: src/tilda.ui:854
 msgid "Hide when Tilda loses focus"
 msgstr "Nascondi tilda alla perdita del focus"
 
-#: src/tilda.ui:816
+#: src/tilda.ui:874
 msgid "<b>Auto Hide</b>"
 msgstr "<b>Scomparsa Automatica</b>"
 
-#: src/tilda.ui:858
+#: src/tilda.ui:913
 msgid "When last terminal is closed:"
 msgstr ""
 
-#: src/tilda.ui:894
+#: src/tilda.ui:946
 #, fuzzy
 msgid "<b>Program Exit</b>"
 msgstr "<b>Posizione</b>"
 
-#: src/tilda.ui:916
+#: src/tilda.ui:964
 #, fuzzy
 msgid ""
 "<small><i><b>Note:</b> Some options require that tilda is restarted.</i></"
@@ -248,61 +273,65 @@ msgstr ""
 "<small><i><b>Nota:</b> colori disponibili per le applicazioni da terminale.</"
 "i></small>"
 
-#: src/tilda.ui:933
+#: src/tilda.ui:981
 msgid "General"
 msgstr "Generale"
 
-#: src/tilda.ui:982
+#: src/tilda.ui:1026
 #, fuzzy
 msgid "Word Characters:"
 msgstr "Caratteri selezionabili come parola"
 
-#: src/tilda.ui:998
+#: src/tilda.ui:1054
 msgid "<b>Select by Word</b>"
 msgstr "<b>Seleziona Parole</b>"
 
-#: src/tilda.ui:1049
+#: src/tilda.ui:1104
 #, fuzzy
 msgid "Web Browser *:"
 msgstr "Browser web"
 
-#: src/tilda.ui:1065
+#: src/tilda.ui:1121
 msgid "<b>URL Handling</b>"
 msgstr "<b>Gestione URL</b>"
 
-#: src/tilda.ui:1100
+#: src/tilda.ui:1156
 msgid "Initial Title:"
 msgstr "Titolo iniziale:"
 
-#: src/tilda.ui:1112
+#: src/tilda.ui:1207
 msgid "Dynamically-set Title:"
 msgstr "Titolo impostato dinamicamente:"
 
-#: src/tilda.ui:1162
+#: src/tilda.ui:1223
 msgid "Limit maximum length of tab title:"
 msgstr ""
 
-#: src/tilda.ui:1200
+#: src/tilda.ui:1245
 msgid "<b>Title</b>"
 msgstr "<b>Titolo</b>"
 
-#: src/tilda.ui:1230
+#: src/tilda.ui:1306
 msgid "Run a custom command instead of the shell"
 msgstr "Esegui un comando personalizzato al posto della shell"
 
-#: src/tilda.ui:1247
+#: src/tilda.ui:1322
 msgid "Custom Command:"
 msgstr "Comando Personalizzato:"
 
-#: src/tilda.ui:1261
+#: src/tilda.ui:1334
 msgid "When Command Exits:"
 msgstr "Comando personalizzato:"
 
-#: src/tilda.ui:1316
+#: src/tilda.ui:1344
+msgid "Use a login shell"
+msgstr ""
+
+#: src/tilda.ui:1370
 msgid "<b>Command</b>"
 msgstr "<b>Comando</b>"
 
-#: src/tilda.ui:1354
+#: src/tilda.ui:1395
 msgid ""
 "* A valid command that can open a browser must be entered here. It is "
 "possible to use the name of a specific browser such as 'firefox' and 'google-"
@@ -310,108 +339,109 @@ msgid ""
 "best command may be different depending on the system."
 msgstr ""
 
-#: src/tilda.ui:1375
+#: src/tilda.ui:1418
 msgid "Title and Command"
 msgstr "Titolo e comando"
 
-#: src/tilda.ui:1408 src/tilda.ui:1501
+#: src/tilda.ui:1462 src/tilda.ui:1639
 msgid "Percentage"
 msgstr "Percentuale"
 
-#: src/tilda.ui:1435 src/tilda.ui:1514
+#: src/tilda.ui:1485 src/tilda.ui:1651
 msgid "In Pixels"
 msgstr "In pixel"
 
-#: src/tilda.ui:1467
+#: src/tilda.ui:1512
 msgid "<b>Height</b>"
 msgstr "<b>Altezza</b>"
 
-#: src/tilda.ui:1560
-msgid "<b>Width</b>"
-msgstr "<b>Larghezza</b>"
-
-#: src/tilda.ui:1592
-msgid "Centered Horizontally"
-msgstr "Centra orizzontalmente"
-
-#: src/tilda.ui:1610
-msgid "Centered Vertically"
-msgstr "Centra verticalmente"
-
-#: src/tilda.ui:1632 src/tilda.c:329
-msgid "X Position"
-msgstr "Posizione orizzontale"
-
-#: src/tilda.ui:1647 src/tilda.c:330
-msgid "Y Position"
-msgstr "Posizione verticale"
-
-#: src/tilda.ui:1699
-msgid "<b>Position</b>"
-msgstr "<b>Posizione</b>"
-
-#: src/tilda.ui:1734
-msgid "Enable Transparency"
-msgstr "Abilitare la trasparenza"
-
-#: src/tilda.ui:1752
-msgid "Level of Transparency"
-msgstr "Livello di trasparenza"
-
-#: src/tilda.ui:1778
-msgid "Animated Pulldown"
-msgstr "Comparsa animata"
-
-#: src/tilda.ui:1795
-msgid "Use Image for Background"
-msgstr "Usa un'immagine per lo sfondo"
-
-#: src/tilda.ui:1815
-msgid "Animation Delay (usec)"
-msgstr "Durata dell'animazione (usec)"
-
-#: src/tilda.ui:1832
-msgid "Animation Orientation"
-msgstr "Direzione dell'animazione"
-
-#: src/tilda.ui:1905
-msgid "<b>Extras</b>"
-msgstr "<b>Extra</b>"
-
-#: src/tilda.ui:1940
+#: src/tilda.ui:1548
 msgid "Monitor:"
 msgstr ""
 
-#: src/tilda.ui:2003
+#: src/tilda.ui:1603
 #, fuzzy
 msgid "<b>Select monitor</b>"
 msgstr "<b>Seleziona Parole</b>"
 
-#: src/tilda.ui:2023
+#: src/tilda.ui:1689
+msgid "<b>Width</b>"
+msgstr "<b>Larghezza</b>"
+
+#: src/tilda.ui:1725
+msgid "Centered Horizontally"
+msgstr "Centra orizzontalmente"
+
+#: src/tilda.ui:1743 src/tilda.c:355
+msgid "Y Position"
+msgstr "Posizione verticale"
+
+#: src/tilda.ui:1777 src/tilda.c:354
+msgid "X Position"
+msgstr "Posizione orizzontale"
+
+#: src/tilda.ui:1787
+msgid "Centered Vertically"
+msgstr "Centra verticalmente"
+
+#: src/tilda.ui:1815
+msgid "<b>Position</b>"
+msgstr "<b>Posizione</b>"
+
+#: src/tilda.ui:1864
+msgid "Animation Delay (usec)"
+msgstr "Durata dell'animazione (usec)"
+
+#: src/tilda.ui:1876
+msgid "Animation Orientation"
+msgstr "Direzione dell'animazione"
+
+#: src/tilda.ui:1925
+msgid "Use Image for Background"
+msgstr "Usa un'immagine per lo sfondo"
+
+#: src/tilda.ui:1939
+msgid "Animated Pulldown"
+msgstr "Comparsa animata"
+
+#: src/tilda.ui:1955
+msgid "Level of Transparency"
+msgstr "Livello di trasparenza"
+
+#: src/tilda.ui:1965
+msgid "Enable Transparency"
+msgstr "Abilitare la trasparenza"
+
+#: src/tilda.ui:1988
+msgid "<b>Extras</b>"
+msgstr "<b>Extra</b>"
+
+#: src/tilda.ui:2007
 msgid "Appearance"
 msgstr "Aspetto"
 
-#: src/tilda.ui:2069
-msgid "Built-in Schemes"
-msgstr "Schemi incorporati"
+#: src/tilda.ui:2076
+#, fuzzy
+msgid "Cursor Color"
+msgstr "Cursore intermittente"
 
-#: src/tilda.ui:2100
+#: src/tilda.ui:2124
 msgid "Text Color"
 msgstr "Colore del testo"
 
-#: src/tilda.ui:2114
+#: src/tilda.ui:2136
 msgid "Background Color"
 msgstr "Colore di sfondo"
 
-#: src/tilda.ui:2163
+#: src/tilda.ui:2148
+msgid "Built-in Schemes"
+msgstr "Schemi incorporati"
+
+#: src/tilda.ui:2162
 msgid "<b>Foreground and Background Colors</b>"
 msgstr "<b>Primo piano e sfondo</b>"
 
-#: src/tilda.ui:2194 src/tilda.ui:2801
-msgid "    "
-msgstr "    "
-
-#: src/tilda.ui:2215
+#: src/tilda.ui:2194
 msgid ""
 "<small><i><b>Note:</b> Terminal applications have these colors available to "
 "them.</i></small>"
@@ -419,64 +449,128 @@ msgstr ""
 "<small><i><b>Nota:</b> colori disponibili per le applicazioni da terminale.</"
 "i></small>"
 
-#: src/tilda.ui:2502
-msgid "Color palette:"
-msgstr "Tavolozza dei colori:"
+#: src/tilda.ui:2237
+msgid "Choose Color 14"
+msgstr ""
 
-#: src/tilda.ui:2519
+#: src/tilda.ui:2250
+msgid "Choose Color 13"
+msgstr ""
+
+#: src/tilda.ui:2263
+msgid "Choose Color 15"
+msgstr ""
+
+#: src/tilda.ui:2276
+msgid "Choose Color 12"
+msgstr ""
+
+#: src/tilda.ui:2289
+msgid "Choose Color 10"
+msgstr ""
+
+#: src/tilda.ui:2302
+msgid "Choose Color 11"
+msgstr ""
+
+#: src/tilda.ui:2315
+msgid "Choose Color 9"
+msgstr ""
+
+#: src/tilda.ui:2328
+msgid "Choose Color 7"
+msgstr ""
+
+#: src/tilda.ui:2341
+msgid "Choose Color 6"
+msgstr ""
+
+#: src/tilda.ui:2354
+msgid "Choose Color 5"
+msgstr ""
+
+#: src/tilda.ui:2367
+msgid "Choose Color 4"
+msgstr ""
+
+#: src/tilda.ui:2380
+msgid "Choose Color 3"
+msgstr ""
+
+#: src/tilda.ui:2393
+msgid "Choose Color 2"
+msgstr ""
+
+#: src/tilda.ui:2406
+msgid "Choose Color 1"
+msgstr ""
+
+#: src/tilda.ui:2419
+msgid "Choose Color 0"
+msgstr ""
+
+#: src/tilda.ui:2433
+msgid "Choose Color 8"
+msgstr ""
+
+#: src/tilda.ui:2450
 msgid "Built-in schemes:"
 msgstr "Schemi incorporati"
 
-#: src/tilda.ui:2546
+#: src/tilda.ui:2465
+msgid "Color palette:"
+msgstr "Tavolozza dei colori:"
+
+#: src/tilda.ui:2481
 msgid "<b>Palette</b>"
 msgstr "<b>Tavolozza</b>"
 
-#: src/tilda.ui:2568
+#: src/tilda.ui:2500
 msgid "Colors"
 msgstr "Colori"
 
-#: src/tilda.ui:2619
-msgid "lines"
-msgstr "righe"
-
-#: src/tilda.ui:2659
+#: src/tilda.ui:2557
 msgid "Scrollbar is:"
 msgstr "Barra di scorrimento:"
 
-#: src/tilda.ui:2669
+#: src/tilda.ui:2566
 #, fuzzy
 msgid "Limit scrollback to:"
 msgstr "Scorrimento all'indietro:"
 
-#: src/tilda.ui:2673
+#: src/tilda.ui:2570
 msgid "Unselect for unlimited scrollback."
 msgstr ""
 
-#: src/tilda.ui:2686
+#: src/tilda.ui:2582
 msgid "Scroll on Output"
 msgstr "Scorrere in presenza di output"
 
-#: src/tilda.ui:2703
+#: src/tilda.ui:2596
 msgid "Scroll on Keystroke"
 msgstr "Scorrere alla pressione dei tasti"
 
-#: src/tilda.ui:2720
+#: src/tilda.ui:2610
 msgid "Scroll Background"
 msgstr "Scorrere in background"
 
-#: src/tilda.ui:2744
+#: src/tilda.ui:2632
+msgid "0"
+msgstr ""
+
+#: src/tilda.ui:2644
+msgid "lines"
+msgstr "righe"
+
+#: src/tilda.ui:2673
 msgid "<b>Scrolling</b>"
 msgstr "<b>Scorrimento</b>"
 
-#: src/tilda.ui:2766
+#: src/tilda.ui:2694
 msgid "Scrolling"
 msgstr "Scorrimento"
 
-#: src/tilda.ui:2784
-msgid "<b>Compatibility</b>"
-msgstr "<b>Compatibilità</b>"
-
-#: src/tilda.ui:2820
+#: src/tilda.ui:2733
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
@@ -488,121 +582,146 @@ msgstr ""
 "applicazioni e sistemi operativi che si aspettano un diverso funzionamento "
 "del terminale.</i></small>"
 
-#: src/tilda.ui:2843
-msgid "_Delete key generates:"
-msgstr "Il tasto «_Canc» genera:"
-
-#: src/tilda.ui:2859
+#: src/tilda.ui:2749
 msgid "_Backspace key generates:"
 msgstr "Il tasto «_Backspace» genera:"
 
-#: src/tilda.ui:2922
+#: src/tilda.ui:2763
+msgid "_Delete key generates:"
+msgstr "Il tasto «_Canc» genera:"
+
+#: src/tilda.ui:2775
 msgid "_Reset Compatibility Options to Defaults"
 msgstr "_Ripristina valori predefiniti per opzioni di compatibilità"
 
-#: src/tilda.ui:2959
+#: src/tilda.ui:2829
+msgid "<b>Compatibility</b>"
+msgstr "<b>Compatibilità</b>"
+
+#: src/tilda.ui:2848
 msgid "Compatibility"
 msgstr "Compatibilità"
 
-#: src/tilda.ui:2987 src/tilda.ui:3027 src/tilda.ui:3065 src/tilda.ui:3103
-#: src/tilda.ui:3142 src/tilda.ui:3182 src/tilda.ui:3220 src/tilda.ui:3258
-#: src/tilda.ui:3296 src/tilda.ui:3334 src/tilda.ui:3372 src/tilda.ui:3412
-#: src/tilda.ui:3452 src/tilda.ui:3490 src/tilda.ui:3526 src/tilda.ui:3566
-#: src/tilda.ui:3606 src/tilda.ui:3646 src/tilda.ui:3686 src/tilda.ui:3724
-#: src/tilda.ui:3764
+#: src/tilda.ui:2881 src/tilda.ui:2916 src/tilda.ui:2952 src/tilda.ui:2987
+#: src/tilda.ui:3022 src/tilda.ui:3057 src/tilda.ui:3092 src/tilda.ui:3127
+#: src/tilda.ui:3162 src/tilda.ui:3197 src/tilda.ui:3232 src/tilda.ui:3267
+#: src/tilda.ui:3302 src/tilda.ui:3337 src/tilda.ui:3372 src/tilda.ui:3407
+#: src/tilda.ui:3442 src/tilda.ui:3477 src/tilda.ui:3512 src/tilda.ui:3547
+#: src/tilda.ui:3582 src/tilda.ui:3617 src/tilda.ui:3652
 msgid " "
 msgstr " "
 
-#: src/tilda.ui:3000
+#: src/tilda.ui:2894
 msgid "<b>Paste</b>"
 msgstr "<b>Incolla</b>"
 
-#: src/tilda.ui:3040
-msgid "<b>Go To Next Tab</b>"
-msgstr "<b>Vai alla scheda sucessiva</b>"
-
-#: src/tilda.ui:3078
-msgid "<b>Quit</b>"
-msgstr "<b>Esci</b>"
-
-#: src/tilda.ui:3116
+#: src/tilda.ui:2929
 msgid "<b>Add Tab</b>"
 msgstr "<b>Nuova scheda</b>"
 
-#: src/tilda.ui:3155
+#: src/tilda.ui:2965
 msgid "<b>Go To Tab 10</b>"
 msgstr "<b>Vai alla scheda 10</b>"
 
-#: src/tilda.ui:3195
-msgid "<b>Go To Tab 5</b>"
-msgstr "<b>Vai alla scheda 5</b>"
-
-#: src/tilda.ui:3233
-msgid "<b>Go To Tab 4</b>"
-msgstr "<b>Vai alla scheda 4</b>"
-
-#: src/tilda.ui:3271
-msgid "<b>Go To Tab 3</b>"
-msgstr "<b>Vai alla scheda 3</b>"
-
-#: src/tilda.ui:3309
-msgid "<b>Go To Tab 2</b>"
-msgstr "<b>Vai alla scheda 3</b>"
-
-#: src/tilda.ui:3347
-msgid "<b>Go To Tab 1</b>"
-msgstr "<b>Vai alla scheda 1</b>"
-
-#: src/tilda.ui:3385
+#: src/tilda.ui:3000
 msgid "<b>Go To Previous Tab</b>"
 msgstr "<b>Vai alla scheda precedente</b>"
 
-#: src/tilda.ui:3425
+#: src/tilda.ui:3035
 msgid "<b>Close Tab</b>"
 msgstr "<b>Chiudi scheda</b>"
 
-#: src/tilda.ui:3465
-msgid "<b>Copy</b>"
-msgstr "<b>Copia</b>"
-
-#: src/tilda.ui:3503
-msgid "<b>Pull Down Terminal</b>"
-msgstr "<b>Comparsa terminale</b>"
-
-#: src/tilda.ui:3539
+#: src/tilda.ui:3070
 msgid "<b>Go To Tab 6</b>"
 msgstr "<b>Vai alla scheda 6</b>"
 
-#: src/tilda.ui:3579
+#: src/tilda.ui:3105
 msgid "<b>Go To Tab 7</b>"
 msgstr "<b>Vai alla scheda 7</b>"
 
-#: src/tilda.ui:3619
+#: src/tilda.ui:3140
 msgid "<b>Go To Tab 8</b>"
 msgstr "<b>Vai alla scheda 8</b>"
 
-#: src/tilda.ui:3659
+#: src/tilda.ui:3175
 msgid "<b>Go To Tab 9</b>"
 msgstr "<b>Vai alla scheda 9</b>"
 
-#: src/tilda.ui:3699
-#, fuzzy
-msgid "<b>Move Tab Left</b>"
-msgstr "<b>Chiudi scheda</b>"
-
-#: src/tilda.ui:3737
+#: src/tilda.ui:3210
 #, fuzzy
 msgid "<b>Move Tab Right</b>"
 msgstr "<b>Altezza</b>"
 
-#: src/tilda.ui:3777
+#: src/tilda.ui:3245
+msgid "<b>Pull Down Terminal</b>"
+msgstr "<b>Comparsa terminale</b>"
+
+#: src/tilda.ui:3280
 #, fuzzy
 msgid "<b>Toggle Fullscreen</b>"
 msgstr "Schermo Intero"
 
-#: src/tilda.ui:3799
+#: src/tilda.ui:3315
+msgid "<b>Go To Tab 5</b>"
+msgstr "<b>Vai alla scheda 5</b>"
+
+#: src/tilda.ui:3350
+msgid "<b>Go To Tab 4</b>"
+msgstr "<b>Vai alla scheda 4</b>"
+
+#: src/tilda.ui:3385
+msgid "<b>Go To Tab 3</b>"
+msgstr "<b>Vai alla scheda 3</b>"
+
+#: src/tilda.ui:3420
+msgid "<b>Go To Tab 2</b>"
+msgstr "<b>Vai alla scheda 3</b>"
+
+#: src/tilda.ui:3455
+msgid "<b>Go To Tab 1</b>"
+msgstr "<b>Vai alla scheda 1</b>"
+
+#: src/tilda.ui:3490
+#, fuzzy
+msgid "<b>Move Tab Left</b>"
+msgstr "<b>Chiudi scheda</b>"
+
+#: src/tilda.ui:3525
+msgid "<b>Copy</b>"
+msgstr "<b>Copia</b>"
+
+#: src/tilda.ui:3560
+msgid "<b>Go To Next Tab</b>"
+msgstr "<b>Vai alla scheda sucessiva</b>"
+
+#: src/tilda.ui:3595
+msgid "<b>Quit</b>"
+msgstr "<b>Esci</b>"
+
+#: src/tilda.ui:3687
 msgid "Keybindings"
 msgstr "Scorciatoie da tastiera"
+
+#: src/tilda.ui:3719
+msgid ""
+"Search term not found, search again to continue the search at the beginning."
+msgstr ""
+
+#: src/tilda.ui:3753
+msgid "_Next"
+msgstr ""
+
+#: src/tilda.ui:3768
+msgid "_Prev"
+msgstr ""
+
+#: src/tilda.ui:3783
+msgid "_Match Case"
+msgstr ""
+
+#: src/tilda.ui:3800
+msgid "_Regex"
+msgstr ""
 
 #: src/callback_func.c:53
 msgid "Untitled"
@@ -612,83 +731,74 @@ msgstr "Senza titolo"
 msgid "Bad value for \"d_set_title\" in config file\n"
 msgstr "Valore errato \"d_set_title\" nel file di configurazione\n"
 
-#: src/configsys.c:199
-#, fuzzy
-msgid "Problem when opening config file\n"
-msgstr "Problemi analizzando il file di configurazione\n"
-
-#: src/configsys.c:203
-msgid "An unexpected error occured while parsing the config file\n"
-msgstr ""
-
-#: src/configsys.c:371
+#: src/configsys.c:359
 msgid "Unable to sync the config file to disk\n"
 msgstr "Impossibile aggiornare il file di configurazione su disco\n"
 
-#: src/configsys.c:381
+#: src/configsys.c:369
 msgid "Unable to close the config file\n"
 msgstr "Impossibile chiudere il file di configurazione\n"
 
-#: src/configsys.c:390
+#: src/configsys.c:382
 #, c-format
 msgid "Unable to write the config file to %s\n"
 msgstr "Impossibile scrivere il file di configurazione in %s\n"
 
-#: src/tilda.c:216
+#: src/tilda.c:237
 #, c-format
 msgid "Unable to run command: `%s'\n"
 msgstr "Impossibile avviare il comando: `%s'\n"
 
-#: src/tilda.c:255 src/tilda.c:492
+#: src/tilda.c:276 src/tilda.c:549
 #, c-format
 msgid "Unable to open lock directory: %s\n"
 msgstr "Impossibile aprire la directory di lock: %s\n"
 
-#: src/tilda.c:319
+#: src/tilda.c:345
 msgid "Use Antialiased Fonts"
 msgstr "Abilita l'Antialiasing per i caratteri"
 
-#: src/tilda.c:320
+#: src/tilda.c:346
 msgid "Set the background color"
 msgstr "Imposta il colore di sfondo"
 
-#: src/tilda.c:321
+#: src/tilda.c:347
 msgid "Run a command at startup"
 msgstr "Esegui un comando all'avvio"
 
-#: src/tilda.c:323
+#: src/tilda.c:349
 msgid "Set the font to the following string"
 msgstr "Imposta il carattere alla seguente stringa"
 
-#: src/tilda.c:324
+#: src/tilda.c:350
 msgid "Scrollback Lines"
 msgstr "Linee di scorrimento"
 
-#: src/tilda.c:325
+#: src/tilda.c:351
 msgid "Use Scrollbar"
 msgstr "Abilita barra di scorrimento"
 
-#: src/tilda.c:326
-msgid "Opaqueness: 0-100%"
-msgstr "Opacità: 0-100%"
-
-#: src/tilda.c:327
+#: src/tilda.c:352
 msgid "Print the version, then exit"
 msgstr "Mostra numero di versione ed esce"
 
-#: src/tilda.c:328
+#: src/tilda.c:353
 msgid "Set Initial Working Directory"
 msgstr "Imposta directory iniziale"
 
-#: src/tilda.c:331
+#: src/tilda.c:357
 msgid "Set Background Image"
 msgstr "Imposta immagine di sfondo"
 
-#: src/tilda.c:332
+#: src/tilda.c:358 src/tilda.c:360
+msgid "Opaqueness: 0-100%"
+msgstr "Opacità: 0-100%"
+
+#: src/tilda.c:362
 msgid "Show Configuration Wizard"
 msgstr "Mostra wizard di configurazione"
 
-#: src/tilda.c:348
+#: src/tilda.c:377
 #, c-format
 msgid ""
 "Error parsing command-line options. Try \"tilda --help\"\n"
@@ -701,21 +811,35 @@ msgstr ""
 "\n"
 "Messaggio di errore: %s\n"
 
-#: src/tilda.c:445
+#: src/tilda.c:415
+#, fuzzy, c-format
+msgid ""
+"Error parsing Glib and GTK specific command-line options. Try \"tilda --help-"
+"all\"\n"
+"to see all possible options.\n"
+"\n"
+"Error message: %s\n"
+msgstr ""
+"Opzione non valida: Usare \"tilda --help\"\n"
+"per maggiori informazioni.\n"
+"\n"
+"Messaggio di errore: %s\n"
+
+#: src/tilda.c:502
 #, c-format
 msgid "Creating directory:'%s'\n"
 msgstr ""
 
-#: src/tilda.c:560
+#: src/tilda.c:645
 msgid ""
 "Found style.css in the user config directory, applying user css style.\n"
 msgstr ""
 
-#: src/tilda.c:591
+#: src/tilda.c:687
 msgid "Migrating old config path to XDG folders\n"
 msgstr ""
 
-#: src/tilda.c:717 src/wizard.c:370
+#: src/tilda.c:831 src/wizard.c:399
 msgid ""
 "The keybinding you chose for \"Pull Down Terminal\" is invalid. Please "
 "choose another."
@@ -723,103 +847,100 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Comparsa terminale\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/tilda_terminal.c:408
+#: src/tilda.c:841
+#, fuzzy
+msgid ""
+"The keybinding you chose for \"Resize Terminal\" is invalid. Please choose "
+"another."
+msgstr ""
+"La scorciatoia da tastiera scelta per \"Chiudi scheda\" non è valida. "
+"Selezionarne un'altra."
+
+#: src/tilda_terminal.c:414
 #, fuzzy, c-format
 msgid "Problem reading link %s: %s\n"
 msgstr "Problemi analizzando il comando personalizzato: %s\n"
 
-#: src/tilda_terminal.c:446
+#: src/tilda_terminal.c:452
 #, c-format
 msgid "Problem parsing custom command: %s\n"
 msgstr "Problemi analizzando il comando personalizzato: %s\n"
 
-#: src/tilda_terminal.c:447 src/tilda_terminal.c:476
+#: src/tilda_terminal.c:453 src/tilda_terminal.c:495
 msgid "Launching default shell instead\n"
 msgstr "Avvio della shell predefinita\n"
 
-#: src/tilda_terminal.c:475
+#: src/tilda_terminal.c:494
 #, c-format
 msgid "Unable to launch custom command: %s\n"
 msgstr "Impossibile avviare il comando personalizzato: %s\n"
 
-#: src/tilda_terminal.c:530
+#: src/tilda_terminal.c:578
 #, c-format
 msgid "Unable to launch default shell: %s\n"
 msgstr "Impossibile eseguire la shell predefinita: %s\n"
 
-#: src/tilda_terminal.c:818
-msgid "_New Tab"
-msgstr "_Nuova scheda"
-
-#: src/tilda_terminal.c:822
-msgid "_Close Tab"
-msgstr "_Chiudi scheda"
-
-#: src/tilda_terminal.c:834
-msgid "Toggle fullscreen"
-msgstr "Schermo Intero"
-
-#: src/tilda_terminal.c:930
+#: src/tilda_terminal.c:1059
 #, c-format
 msgid "Failed to launch the web browser. The command was `%s'\n"
 msgstr "Impossibile avviare il browser web tramite il comando: `%s'\n"
 
-#: src/tilda_window.c:101
+#: src/tilda_window.c:103
 msgid "You have a bad tab_pos in your configuration file\n"
 msgstr "Valore errato \"tab_pos\" nel file di configurazione\n"
 
-#: src/tilda_window.c:509
+#: src/tilda_window.c:784
 #, c-format
 msgid "Unable to set tilda's icon: %s\n"
 msgstr "Impossibile impostare l'icona di Tilda: %s\n"
 
-#: src/tilda_window.c:695
+#: src/tilda_window.c:1097
 msgid "Out of memory, cannot create tab\n"
 msgstr "Memoria insufficiente, non posso creare la scheda\n"
 
-#: src/wizard.c:189
+#: src/wizard.c:190
 msgid "Tango"
 msgstr "Tango"
 
-#: src/wizard.c:190
+#: src/wizard.c:191
 msgid "Linux console"
 msgstr "Console Linux"
 
-#: src/wizard.c:191
+#: src/wizard.c:192
 msgid "XTerm"
 msgstr "XTerm"
 
-#: src/wizard.c:192
+#: src/wizard.c:193
 msgid "Rxvt"
 msgstr "Rxvt"
 
-#: src/wizard.c:286
+#: src/wizard.c:306
 #, c-format
 msgid "Tilda %d Config"
 msgstr "Configurazione di di Tilda - Sessione %d"
 
-#: src/wizard.c:374
+#: src/wizard.c:403
 msgid ""
 "The keybinding you chose for \"Add Tab\" is invalid. Please choose another."
 msgstr ""
 "La scorciatoia da tastiera scelta per \"Aggiungi scheda\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:376
+#: src/wizard.c:405
 msgid ""
 "The keybinding you chose for \"Close Tab\" is invalid. Please choose another."
 msgstr ""
 "La scorciatoia da tastiera scelta per \"Chiudi scheda\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:378
+#: src/wizard.c:407
 msgid ""
 "The keybinding you chose for \"Next Tab\" is invalid. Please choose another."
 msgstr ""
 "La scorciatoia da tastiera scelta per \"Scheda successiva\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:380
+#: src/wizard.c:409
 msgid ""
 "The keybinding you chose for \"Previous Tab\" is invalid. Please choose "
 "another."
@@ -827,7 +948,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Scheda precedente\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:382
+#: src/wizard.c:411
 #, fuzzy
 msgid ""
 "The keybinding you chose for \"Move Tab to Left\" is invalid. Please choose "
@@ -836,7 +957,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Chiudi scheda\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:384
+#: src/wizard.c:413
 #, fuzzy
 msgid ""
 "The keybinding you chose for \"Move Tab to Right\" is invalid. Please choose "
@@ -845,28 +966,28 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Chiudi scheda\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:386
+#: src/wizard.c:415
 msgid ""
 "The keybinding you chose for \"Copy\" is invalid. Please choose another."
 msgstr ""
 "La scorciatoia da tastiera scelta per \"Copia\" non è valida. Selezionarne "
 "un'altra."
 
-#: src/wizard.c:388
+#: src/wizard.c:417
 msgid ""
 "The keybinding you chose for \"Paste\" is invalid. Please choose another."
 msgstr ""
 "La scorciatoia da tastiera scelta per \"Incolla\" non è valida. Selezionarne "
 "un'altra."
 
-#: src/wizard.c:390
+#: src/wizard.c:419
 msgid ""
 "The keybinding you chose for \"Quit\" is invalid. Please choose another."
 msgstr ""
 "La scorciatoia da tastiera scelta per \"Esci\" non è valida. Selezionarne "
 "un'altra."
 
-#: src/wizard.c:392
+#: src/wizard.c:421
 msgid ""
 "The keybinding you chose for \"Go To Tab 1\" is invalid. Please choose "
 "another."
@@ -874,7 +995,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 1\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:394
+#: src/wizard.c:423
 msgid ""
 "The keybinding you chose for \"Go To Tab 2\" is invalid. Please choose "
 "another."
@@ -882,7 +1003,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 2\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:396
+#: src/wizard.c:425
 msgid ""
 "The keybinding you chose for \"Go To Tab 3\" is invalid. Please choose "
 "another."
@@ -890,7 +1011,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 3\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:398
+#: src/wizard.c:427
 msgid ""
 "The keybinding you chose for \"Go To Tab 4\" is invalid. Please choose "
 "another."
@@ -898,7 +1019,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 4\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:400
+#: src/wizard.c:429
 msgid ""
 "The keybinding you chose for \"Go To Tab 5\" is invalid. Please choose "
 "another."
@@ -906,7 +1027,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 5\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:402
+#: src/wizard.c:431
 msgid ""
 "The keybinding you chose for \"Go To Tab 6\" is invalid. Please choose "
 "another."
@@ -914,7 +1035,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 6\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:404
+#: src/wizard.c:433
 msgid ""
 "The keybinding you chose for \"Go To Tab 7\" is invalid. Please choose "
 "another."
@@ -922,7 +1043,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 7\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:406
+#: src/wizard.c:435
 msgid ""
 "The keybinding you chose for \"Go To Tab 8\" is invalid. Please choose "
 "another."
@@ -930,7 +1051,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 8\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:408
+#: src/wizard.c:437
 msgid ""
 "The keybinding you chose for \"Go To Tab 9\" is invalid. Please choose "
 "another."
@@ -938,7 +1059,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 9\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:410
+#: src/wizard.c:439
 msgid ""
 "The keybinding you chose for \"Go To Tab 10\" is invalid. Please choose "
 "another."
@@ -946,7 +1067,7 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Vai alla scheda 10\" non è valida. "
 "Selezionarne un'altra."
 
-#: src/wizard.c:412
+#: src/wizard.c:441
 #, fuzzy
 msgid ""
 "The keybinding you chose for \"Toggle Fullscreen\" is invalid. Please choose "
@@ -955,17 +1076,52 @@ msgstr ""
 "La scorciatoia da tastiera scelta per \"Incolla\" non è valida. Selezionarne "
 "un'altra."
 
-#: src/wizard.c:870
+#: src/wizard.c:443
+#, fuzzy
+msgid ""
+"The keybinding you chose for \"Toggle Transparency\" is invalid. Please "
+"choose another."
+msgstr ""
+"La scorciatoia da tastiera scelta per \"Incolla\" non è valida. Selezionarne "
+"un'altra."
+
+#: src/wizard.c:445
+#, fuzzy
+msgid ""
+"The keybinding you chose for \"Toggle Search Bar\" is invalid. Please choose "
+"another."
+msgstr ""
+"La scorciatoia da tastiera scelta per \"Incolla\" non è valida. Selezionarne "
+"un'altra."
+
+#: src/wizard.c:978
+msgid "Invalid Cursor Type, reseting to default\n"
+msgstr ""
+
+#: src/wizard.c:995
 msgid "Invalid non-focus pull up behaviour, ignoring\n"
 msgstr ""
 
-#: src/wizard.c:895
+#: src/wizard.c:1020
 msgid "Invalid tab position setting, ignoring\n"
 msgstr "Posizionamento delle schede non valido, verrà ignorato\n"
 
-#: src/wizard.c:1871
+#: src/wizard.c:2098
 msgid "Enter keyboard shortcut"
 msgstr ""
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#, fuzzy
+#~ msgid "Problem when opening config file\n"
+#~ msgstr "Problemi analizzando il file di configurazione\n"
+
+#~ msgid "_New Tab"
+#~ msgstr "_Nuova scheda"
+
+#~ msgid "_Close Tab"
+#~ msgstr "_Chiudi scheda"
 
 #, fuzzy
 #~ msgid "Problem while parsing config file\n"
